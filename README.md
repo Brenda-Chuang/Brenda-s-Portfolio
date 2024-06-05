@@ -5,15 +5,20 @@
 
 ## Data Collection 
 
-The data for this project was scrapped from Westside Auto Wholesale.<br />
+The data for this project was scrapped from Westside Auto Wholesale.<br/>
 
-The dataset scrapped from the website includes three sections:
+Webscrapping Tools and Method:
+- Python libraries: Playwright and BeautifulSoup. <br/>
+- The data was scraped by dividing it into several sections based on car models.
+  This avoids the occasion that requires to rerun the code to fetch all required data.
+
+The shop webpage contains all vehicle boxes in which the vehicle data are displayed. The scrapping process involves finding all links of the vehicle boxes and access the individual vehicle pages to scrap the required data. Those required vehicle data for this project are categorised into three sections: 
 - Vehicle Main Details and Statistics: Make, Model, Price, and View.
 - Vehicle Features: Model Year, Odometer, Fuel Type, Drivetrain, Transmission, Seats, Engine.
-- Other Vehicle Details: Series, Transmission, Body, Colour, VIN, Badge, Engine, Drive Type, Stock number, and Rego.<br />
+- Additional Vehicle Details: Series, Transmission, Body, Colour, VIN, Badge, Engine, Drive Type, Stock number, and Rego.<br />
 
-The data was scraped using the Python libraries Playwright and BeautifulSoup.<br />
-The web scraping code and detailed steps are documented in [docs/data_collection.md](./docs/data_collection.md).
+The web scraping code and detailed steps are documented in [Pre-Owned Vehicles scrapping.py](https://github.com/Brenda-Chuang/Brenda-s-Portfolio/blob/main/Pre-Owned%20Vehicles%20Project/Vehicle%20scrapping%20code/Pre-Owned%20Vehicles%20scrapping.py).<br/>
+
 
 ## Data Cleaning
 
