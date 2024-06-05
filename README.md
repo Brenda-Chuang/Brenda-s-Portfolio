@@ -13,11 +13,11 @@ The dataset scrapped from the website includes three sections:
 - Other Vehicle Details: Series, Transmission, Body, Colour, VIN, Badge, Engine, Drive Type, Stock number, and Rego.<br />
 
 The data was scraped using the Python libraries Playwright and BeautifulSoup.<br />
-Refer to [Pre-Owned Vehicle] (HTTP://) for the web scraping code.
+The web scraping code and detailed steps are documented in [docs/data_collection.md](./docs/data_collection.md).
 
 ## Data Cleaning
 
-The data cleaning was performed using Python and the pandas library. Detailed steps are documented in [docs/data_cleaning.md](./docs/data_cleaning.md).
+The data cleaning was performed using Python and the Pandas library. Detailed steps are documented in [docs/data_cleaning.md](./docs/data_cleaning.md).
 
 ## Features
 
