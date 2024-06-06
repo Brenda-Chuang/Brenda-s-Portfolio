@@ -49,7 +49,7 @@ Step 4: Remove unnecessary unit content in data <br/>
 Step 5: Split separate information stored in the same column <br/>
 Step 6: Replace missing values <br/>
 Step 7: Change data type <br/>
-Step 7: Write the cleaned vehicle data into a CSV file <br/>
+Step 8: Write the cleaned vehicle data into a CSV file <br/>
 
 Detailed steps and codes are documented in [Pre-Owned Vehicles cleaned.ipynb](https://github.com/Brenda-Chuang/Brenda-s-Portfolio/blob/main/Pre-Owned%20Vehicles%20Project/Vehicle%20scrapping%20code/Pre-Owned%20Vehicles_cleaned.ipynb).<br/>
 
