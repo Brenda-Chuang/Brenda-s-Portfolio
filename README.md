@@ -1,5 +1,6 @@
 # Project 1: Pre-Owned Vehicles Analysis Dashboard
 
+
 ## Problem Statement
 
 This project aims to provide insights into various aspects of pre-owned vehicle stocking, including the top makes and models in stock, common vehicle features, customer preferences, pricing dynamics, and depreciation rates. <br/>
