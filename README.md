@@ -5,13 +5,13 @@ https://github.com/Brenda-Chuang/Brenda-s-Portfolio/assets/171400447/ea17b7b6-22
 
 ## Problem Statement
 
-This project aims to provide insights into various aspects of pre-owned vehicle stocking, including the top makes and models in stock, common vehicle features, customer preferences, pricing dynamics, and depreciation rates. <br/>
+This project aims to provide insights into various aspects of pre-owned vehicle stocking, including the top makes and models in stock, common vehicle features, customer preferences, pricing and depreciation analysis. <br/>
 
 Specifically, the analysis aims to address the following questions:<br/>
 
 - Vehicle Stocking analysis:
 1. What are the Top 8 makes of the in-stock vehicle?
-2. What are the most common features of the vehicles in stock (Fuel type, transmission, drivetrain, Colour and body type)?
+2. What are the most common features of the vehicles in stock (Fuel type, transmission, drivetrain, Colour, and body type)?
 - Vehicle Views analysis:
 1. Which make and model combinations are most popular based on views, and do they align with the current inventory levels?
 2. What are the most viewed odometer ranges for the top makes and models?
@@ -29,9 +29,9 @@ The data for this project was scrapped from Westside Auto Wholesale.<br/>
 Web Scraping Tools and Method:
 - Python libraries: Playwright and BeautifulSoup. <br/>
 - The data was scraped by dividing it into several sections based on car models.
-  This avoids the occasion that requires rerunning the code to fetch all required data.
+  This avoids the occasion that requires rerunning the code to fetch all the necessary data.
 
-The shop webpage contains all vehicle boxes in which the vehicle data are displayed. The scrapping process involves finding all links associated with the vehicle boxes and accessing the individual vehicle pages to scrap the required data. The required vehicle data for this project are categorised into three sections: 
+The shop webpage contains all vehicle boxes in which the vehicle data are displayed. Scrapping involves finding all links associated with the vehicle boxes and accessing the individual vehicle pages to scrap the required data. The vehicle data necessary for this project are categorised into three sections: 
 - Vehicle Main Details and Statistics: Make, Model, Price, and View.
 - Vehicle Features: Model Year, Odometer, Fuel Type, Drivetrain, Transmission, Seats, Engine.
 - Additional Vehicle Details: Series, Transmission, Body, Colour, VIN, Badge, Engine, Drive Type, Stock number, and Rego.<br />
