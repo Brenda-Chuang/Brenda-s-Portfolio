@@ -1,4 +1,4 @@
-# Project 1: Pre-Owned Vehicles Analysis Dashboard
+# Pre-Owned Vehicles Analysis Dashboard
 
 ## Dashboard Overview
 https://github.com/Brenda-Chuang/Brenda-s-Portfolio/assets/171400447/ea17b7b6-2215-4f8d-89a4-5b9dd8a9dfb4
